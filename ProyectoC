@@ -1,0 +1,58 @@
+Universidad de Costa Rica
+Escuela de Ingeniería Eléctrica
+IE 0117 – Programación bajo Plataformas Abiertas
+Prof. Julián Gairaud
+Luis Diego Núñez Mora – B75473
+Yoel Moya Carmona – B75262
+Manuel Zapata
+
+
+
+Proyecto C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.	Refiriéndose a memoria en los sistemas operativos ¿Cuál es la 
+diferencia entre Heap y Stack? (no confunda con las estructuras de datos
+ del mismo nombre).
+Heap: “Es un área de memoria dinámica que el programa pide al sistema
+ operativo utilizando llamadas (funciones) como malloc y calloc. Esta memoria
+ se maneja via punteros y es responsabilidad del programador liberarla
+ después de su uso mediante la función free para evitar un escape de memoria
+ (memory leak).” [1]
+Stack: “Se utiliza para almacenar las variables denominadas automáticas, las
+ cuales existen durante la ejecución de la función que las referencia. Los
+ argumentos y variables locales son asignados y desasignados en forma
+ dinámica durante la ejecución de las funciones en forma automática por el
+ compilador, este proceso no involucra al programado.r” [1]
+
+2.	Describa la diferencia entre una variable reservada estática y
+ dinámicamente. Mencione ventajas y desventajas de ambas.
+
+3.	Cree una muestra de código (en el documento pdf, no necesita adjuntar
+ código .c) donde se haga lo siguiente: 
+a. Crear una función que reciba una cantidad N de elementos, y un puntero de
+ tipo double. 
+b. La función debe reservar N elementos del tipo double, y asignarlo al
+ puntero de entrada. 
+c. La función retorna un número entero: 0 si no hay errores, -1 si hubo algún
+ error.
+
+4.	Investigue qué es el concepto de “union” en C. Describa la diferencia
+ entre un “unión” y un “struct”.
+
+Referencias Bibliograficas
+[1] Arredondo, T. (2010). “4. Memoria, Stack, Strings.” (ELO-320-Memoria.pdf
+ (utfsm.cl)) Accedido el 5 de mar. de 23 
+
